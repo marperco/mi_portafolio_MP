@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    
+  }
+.tarjeta {
+    margin: 2%;
+    display: inline-block;
+
+}
