@@ -7,3 +7,31 @@ body {
     display: inline-block;
 
 }
+nav {
+  background-color: #333; /* Cambia este valor para el color que prefieras */
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white; /* Cambia este valor para el color de texto que prefieras */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111; /* Cambia este valor para el color que prefieras al pasar el mouse por encima */
+}
